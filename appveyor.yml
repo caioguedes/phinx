@@ -20,7 +20,7 @@ environment:
       - db: 2012
         php_ddl: 7_nts_x86
         php_zip: php-7.0.9-nts-Win32-VC14-x86.zip
-        db_dsn: 'sqlserver://sa:Password12!@.\SQL2012SP1/phinxtesting?MultipleActiveResultSets=false'
+        db_dsn: 'sqlserver://sa:Password12!@.\SQL2012SP1/phinxtesting?MultipleActiveResultSets=false;ConnectionPooling=0'
         dependencies: lowest
         sqlsrv: https://download.microsoft.com/download/C/D/B/CDB0A3BB-600E-42ED-8D5E-E4630C905371/SQLSRV40.EXE
 
