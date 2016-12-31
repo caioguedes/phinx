@@ -1,3 +1,4 @@
+a
 # [Phinx](https://phinx.org): Simple PHP Database Migrations
 
 [![Build Status](https://travis-ci.org/robmorgan/phinx.png?branch=master)](https://travis-ci.org/robmorgan/phinx)
